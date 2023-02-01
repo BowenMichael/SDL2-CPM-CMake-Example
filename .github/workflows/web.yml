@@ -37,7 +37,7 @@ jobs:
       - name: Rsync
         run: apt install -y rsync
 
-      - name: Emscripten Build
+      - name: Emscripten Build1 
         run: ./scripts/emscripten-build.sh
 
       - name: Clean emscripten bin assets
